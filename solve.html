@@ -26,66 +26,108 @@
                 <li class="nav-item">
                     <a class="nav-link" href="code.html">Code</a>
                 </li>
-                
-
-            </ul>
-            <div class="jumbotron jumbotron-fluid">
-                
-            </div>
-            <div class="row">
-            <div class="card-columns">
-                <div class="card">
-                    <img class="card-img-top" src="holder.js/100x180/" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Join</h4>
-                        <p class="card-text">joining array</p>
-                        <p class="card-text">Join method </p>
-                        <p class="card-text">joining array</p>
-                        <h4>["Bananas", "Oranges", "Apples", "Mangos"]</h4>
-                        <!-- <button class="btn btn-dark" onclick="Join()">Try it</button> -->
-                        <button class="btn btn-dark" id="btnJoin"></button>
-                        <h3><p id="outputCard1"></p></h3>
-
-
-                    
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                <div class="card">
-                    <img class="card-img-top" src="holder.js/100x180/" alt="">
-                    <div class="card-body">
-                        <h4 class="card-title">Reverse</h4>
-                        <p class="card-text">we can easily reverse an array including an array of characters aka "string"</p>
-                        <h4>["Bananas", "Oranges", "Apples", "Mangos"]</h4>
-                        <button class="btn btn-dark" onclick="Reverse()">Click</button>
-                        <h3><p id="outputCard2"></p></h3>
-                    </div>
-
-                    <div class="card">
-                        <img class="card-img-top" src="holder.js/100x180/" alt="">
-                        <div class="card-body">
-                            <h4 class="card-title">split, reverse, join</h4>
-                            <p class="card-text">we can easily reverse a string</p>
-                            <h4>Hello</h4>
-                            <button class="btn btn-dark" onclick="ReverseUsingSplitandJoin()">Click to reverse Hello</button>
-                            <h3><p id="outputCard3"></p></h3>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="holder.js/100x180/" alt="">
-                            <div class="card-body">
-                                <h4 class="card-title">sorting an array</h4>
-                                <p class="card-text">we can sort an array either alphabetically (by default) or by using function</p>
-                                <h4>["Bananas", "Oranges", "Apples", "Mangos"]</h4>
-                                <button class="btn btn-dark" onclick="Sort()">Click to reverse Hello</button>
-                                <h3><p id="outputCard4"></p></h3>
-                            </div>
-                        </div>
-                    </div>        
-                </div>
-            </div>
+                </ul>
         </div>
     </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <h1 class="display-3">Fluid jumbo heading</h1>
+            <p class="lead">Jumbo helper text</p>
+            <hr class="my-2">
+            <p>More info</p>
+            <p class="lead">
+                <a class="btn btn-primary btn-lg" href="Jumbo action link" role="button">Jumbo action name</a>
+            </p>
+        </div>
+    </div>
+
+    <div class="card-columns">
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="">
+            <div class="card-body">
+                <h2 class="card-title">Join</h2>
+                <p class="card-text">The join() method joins array elements into a string. In this example I have used "*" as a separator between the elements.</p>
+                <p class="card-text">Click the button to display the string after joining the following array;</p>                
+      
+                <h4>["Banana", "Orange", "Apple", "Mango"]</h4>                
+                <!-- <button class="btn btn-dark" onclick="Join()">Try it</button> -->
+                <button class="btn btn-dark" id="btnJoin">Try it</button>
+                <hr>
+                <h3><p id="outputCard1"></p></h3>                     
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Reverse</h4>
+                <p class="card-text">We can easily reverse an Array including an array of characters (a.k.a A String)</p>
+                <h4>["Banana", "Orange", "Apple", "Mango"]</h4>
+                <button class="btn btn-dark" onclick="Reverse()">Click to reverse</button>                   
+                <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+                <hr>
+                <h3><p id="outputCard2"></p></h3>              
+            </div>
+        </div>
+    
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Split Reverse Join</h4>
+                <p class="card-text">We can also easily reverse a String (a.k.a. Palindrome)</p>
+                <h4>Hello</h4>
+                <button class="btn btn-dark" onclick="ReverseUsingSplitAndJoin()">Click to reverse</button>                   
+                <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+                <hr>
+                <h3><p id="outputCard3"></p></h3>              
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Sorting an Array</h4>
+                <p class="card-text">We can sort an array either alphabetically (by default) or using a custom function</p>
+                <h4>["Banana", "Orange", "Apple", "Mango"]</h4>
+                <button class="btn btn-dark" onclick="Sort()">Click to sort</button>                   
+                <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+                <hr>
+                <h3><p id="outputCard4"></p></h3>              
+            </div>
+        </div>
+
+
+        <div class="card">
+            <img class="card-img-top" src="holder.js/100x180/" alt="">
+            <div class="card-body">
+                <h4 class="card-title">Sorting a numric Array</h4>
+                <p class="card-text">We can also sort a numeric array in either ascending or descending order</p>
+                <h4>[40, 100, 1, 5, 25, 10]</h4>
+                <button class="btn btn-dark" id="btnSort">Click to sort ascending</button>                   
+                <button class="btn btn-dark" id="btnSortDesc">Click to sort descending</button>                   
+          
+                <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+                <hr>
+                <h3><p id="outputCard5"></p></h3>              
+                <h3><p id="outputCard6"></p></h3>              
+            </div>
+        </div>
+
+    <div class="card">
+        <img class="card-img-top" src="holder.js/100x180/" alt="">
+        <div class="card-body">
+            <h4 class="card-title">Switch versus If/Else If/Else</h4>
+            <p class="card-text">As an example I will use JS's Date().getDay() method to illustrate the switch statement</p>
+            <button class="btn btn-dark" id="btnSwitch">Switch on the DOW</button>                   
+            <!-- <button class="btn btn-dark" id="btnReverse">Click to reverse</button> -->
+            <hr>
+            <h3><p id="outputCard7"></p></h3>              
+        </div>
+    </div>
+    
+    </div>
       
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
